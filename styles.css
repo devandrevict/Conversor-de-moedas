@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    width: 375px;
+    height: 66px;
+    background: #9738f0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #F4F4F4;
+    
+}
+
+main{
+    width: 375px;
+    height: 650px;
+    background: #eeeeee;
+}
+
+label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items:center;
+    color: #777777;
+    padding: 10px;
+}
+
+select{
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    color: #555555;
+    }
+
+input{
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 113px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    color: #555555;
+    margin-bottom: 25px;
+}
+
+button{
+    background: #9738f0;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F4F4F4;
+    width: 327px;
+    height: 48px;
+    border: none;
+    cursor:pointer;
+    margin-bottom: 20px;
+    position: relative;
+    color: #FFFFFF;
+    transition-duration: 0.9s;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+  
+  button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0.4;
+    transition: all 0.6s;
+    border-radius: 100px;
+}
+  
+  button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+.container-mini{
+    border: 1px solid #9738f0;
+    border-radius: 4px;
+    width: 327px;
+    height: 276px;
+    margin-left: 24px;
+}
+
+.money-name{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #777777;
+}
+
+.value{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #9738f0;
+    margin-bottom: 20px;
+}
+
+.img-dolar{
+    margin-top: 20px;
+}
+
+.img-real{
+    margin-top: 5px;
+}
